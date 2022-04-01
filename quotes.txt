@@ -12,3 +12,5 @@ Favor focus over features
 Avoid administrative distraction
 Design for failure
 Keep it logically awesome
+This course is not the greatest
+The bot and learning lab implementation is really cool though!this is a test quote to add to the document

@@ -8,8 +8,22 @@ def main_function():
 
   last = len(quotes) - 1
 
-  rnd = random.randint(0, last)
-  print(quotes[rnd])
+  i = 0
+  quotes_to_print = []
 
+  while i < 3:
+    i+=1
+    rnd = random.randint(0, last)
+    quotes_to_print.append(quotes[rnd][:-1])
+
+  print(quotes_to_print)
+
+
+
+def addQuote (file, quote):
+  with open(file, 'a') as f:
+    f.write(quote)
+
+addQuote('quotes.txt', 'this is a test quote to add to the document')
 if __name__== "__main__":
   main_function()
